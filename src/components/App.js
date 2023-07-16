@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/App.css";
 
 export default function App() {
-    const[theme , setTheme]=useState(light);
+    const[theme , setTheme]=useState('light');
     const toggleTheme=()=>{
         setTheme(pretheme=>(pretheme==='light'?'dark':'light'));
     }
